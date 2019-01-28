@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B2A6541E143BFBEA142940F /* libPods-FGAsyncLoadImgUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7BBC315029BD2EA439D166 /* libPods-FGAsyncLoadImgUtil.a */; };
+		FC1DAADD21FEE6260014D769 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1DAADC21FEE6260014D769 /* AppDelegate.m */; };
+		FC1DAAE021FEE6260014D769 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1DAADF21FEE6260014D769 /* ViewController.m */; };
+		FC1DAAE321FEE6260014D769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1DAAE121FEE6260014D769 /* Main.storyboard */; };
+		FC1DAAE521FEE6280014D769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1DAAE421FEE6280014D769 /* Assets.xcassets */; };
+		FC1DAAE821FEE6280014D769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC1DAAE621FEE6280014D769 /* LaunchScreen.storyboard */; };
+		FC1DAAEB21FEE6280014D769 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1DAAEA21FEE6280014D769 /* main.m */; };
+		FC1DAAF321FEE6410014D769 /* FGAsyncLoadImgUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1DAAF221FEE6410014D769 /* FGAsyncLoadImgUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9488B24ACB3F5D3228B98550 /* Pods-FGAsyncLoadImgUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGAsyncLoadImgUtil.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FGAsyncLoadImgUtil/Pods-FGAsyncLoadImgUtil.debug.xcconfig"; sourceTree = "<group>"; };
+		CA38486EE7A38248F0F0C8C8 /* Pods-FGAsyncLoadImgUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FGAsyncLoadImgUtil.release.xcconfig"; path = "Pods/Target Support Files/Pods-FGAsyncLoadImgUtil/Pods-FGAsyncLoadImgUtil.release.xcconfig"; sourceTree = "<group>"; };
+		EE7BBC315029BD2EA439D166 /* libPods-FGAsyncLoadImgUtil.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FGAsyncLoadImgUtil.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1DAAD821FEE6260014D769 /* FGAsyncLoadImgUtil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FGAsyncLoadImgUtil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1DAADB21FEE6260014D769 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC1DAADC21FEE6260014D769 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC1DAADE21FEE6260014D769 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC1DAADF21FEE6260014D769 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC1DAAE221FEE6260014D769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC1DAAE421FEE6280014D769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC1DAAE721FEE6280014D769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC1DAAE921FEE6280014D769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC1DAAEA21FEE6280014D769 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC1DAAF121FEE6410014D769 /* FGAsyncLoadImgUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FGAsyncLoadImgUtil.h; sourceTree = "<group>"; };
+		FC1DAAF221FEE6410014D769 /* FGAsyncLoadImgUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FGAsyncLoadImgUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC1DAAD521FEE6260014D769 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B2A6541E143BFBEA142940F /* libPods-FGAsyncLoadImgUtil.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D4FC97E420FC2A644FED908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE7BBC315029BD2EA439D166 /* libPods-FGAsyncLoadImgUtil.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C176226C9EAD811FBBE4AC69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9488B24ACB3F5D3228B98550 /* Pods-FGAsyncLoadImgUtil.debug.xcconfig */,
+				CA38486EE7A38248F0F0C8C8 /* Pods-FGAsyncLoadImgUtil.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FC1DAACF21FEE6260014D769 = {
+			isa = PBXGroup;
+			children = (
+				FC1DAADA21FEE6260014D769 /* FGAsyncLoadImgUtil */,
+				FC1DAAD921FEE6260014D769 /* Products */,
+				C176226C9EAD811FBBE4AC69 /* Pods */,
+				6D4FC97E420FC2A644FED908 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC1DAAD921FEE6260014D769 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC1DAAD821FEE6260014D769 /* FGAsyncLoadImgUtil.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC1DAADA21FEE6260014D769 /* FGAsyncLoadImgUtil */ = {
+			isa = PBXGroup;
+			children = (
+				FC1DAADB21FEE6260014D769 /* AppDelegate.h */,
+				FC1DAADC21FEE6260014D769 /* AppDelegate.m */,
+				FC1DAADE21FEE6260014D769 /* ViewController.h */,
+				FC1DAADF21FEE6260014D769 /* ViewController.m */,
+				FC1DAAF121FEE6410014D769 /* FGAsyncLoadImgUtil.h */,
+				FC1DAAF221FEE6410014D769 /* FGAsyncLoadImgUtil.m */,
+				FC1DAAE121FEE6260014D769 /* Main.storyboard */,
+				FC1DAAE421FEE6280014D769 /* Assets.xcassets */,
+				FC1DAAE621FEE6280014D769 /* LaunchScreen.storyboard */,
+				FC1DAAE921FEE6280014D769 /* Info.plist */,
+				FC1DAAEA21FEE6280014D769 /* main.m */,
+			);
+			path = FGAsyncLoadImgUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC1DAAD721FEE6260014D769 /* FGAsyncLoadImgUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC1DAAEE21FEE6280014D769 /* Build configuration list for PBXNativeTarget "FGAsyncLoadImgUtil" */;
+			buildPhases = (
+				2CC60D971FB3701F9D04DDDC /* [CP] Check Pods Manifest.lock */,
+				FC1DAAD421FEE6260014D769 /* Sources */,
+				FC1DAAD521FEE6260014D769 /* Frameworks */,
+				FC1DAAD621FEE6260014D769 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FGAsyncLoadImgUtil;
+			productName = FGAsyncLoadImgUtil;
+			productReference = FC1DAAD821FEE6260014D769 /* FGAsyncLoadImgUtil.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC1DAAD021FEE6260014D769 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = fengle;
+				TargetAttributes = {
+					FC1DAAD721FEE6260014D769 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FC1DAAD321FEE6260014D769 /* Build configuration list for PBXProject "FGAsyncLoadImgUtil" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC1DAACF21FEE6260014D769;
+			productRefGroup = FC1DAAD921FEE6260014D769 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC1DAAD721FEE6260014D769 /* FGAsyncLoadImgUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC1DAAD621FEE6260014D769 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1DAAE821FEE6280014D769 /* LaunchScreen.storyboard in Resources */,
+				FC1DAAE521FEE6280014D769 /* Assets.xcassets in Resources */,
+				FC1DAAE321FEE6260014D769 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CC60D971FB3701F9D04DDDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FGAsyncLoadImgUtil-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC1DAAD421FEE6260014D769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC1DAAE021FEE6260014D769 /* ViewController.m in Sources */,
+				FC1DAAF321FEE6410014D769 /* FGAsyncLoadImgUtil.m in Sources */,
+				FC1DAAEB21FEE6280014D769 /* main.m in Sources */,
+				FC1DAADD21FEE6260014D769 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC1DAAE121FEE6260014D769 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1DAAE221FEE6260014D769 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC1DAAE621FEE6280014D769 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC1DAAE721FEE6280014D769 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC1DAAEC21FEE6280014D769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC1DAAED21FEE6280014D769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC1DAAEF21FEE6280014D769 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9488B24ACB3F5D3228B98550 /* Pods-FGAsyncLoadImgUtil.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6FNNW78A4;
+				INFOPLIST_FILE = FGAsyncLoadImgUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FengLe.FGAsyncLoadImgUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC1DAAF021FEE6280014D769 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA38486EE7A38248F0F0C8C8 /* Pods-FGAsyncLoadImgUtil.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W6FNNW78A4;
+				INFOPLIST_FILE = FGAsyncLoadImgUtil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FengLe.FGAsyncLoadImgUtil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC1DAAD321FEE6260014D769 /* Build configuration list for PBXProject "FGAsyncLoadImgUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1DAAEC21FEE6280014D769 /* Debug */,
+				FC1DAAED21FEE6280014D769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC1DAAEE21FEE6280014D769 /* Build configuration list for PBXNativeTarget "FGAsyncLoadImgUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1DAAEF21FEE6280014D769 /* Debug */,
+				FC1DAAF021FEE6280014D769 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC1DAAD021FEE6260014D769 /* Project object */;
+}
